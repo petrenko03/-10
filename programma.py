@@ -86,7 +86,7 @@ def speed(q):  # тест скорости это создание файла с
     print("Произведение:", product_float(s))
     stop_time = timeit.default_timer()
     print("Время работы:", stop_time - start_time, "сек")
-    file.close(
+    file.close()
 
 #тест скорости программы при разном обьеме входного файла
 speed(10)
